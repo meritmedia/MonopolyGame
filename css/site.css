@@ -1,0 +1,508 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: hsla(353,0%,100%,1);
+    /*background-color: hsla(224,30%,80%,1);*/
+    background: #000;
+    background: -webkit-radial-gradient( hsla(353,100%,30%,1) 15%, hsla(353,0%,0%,1) 85%); /* Safari 5.1-6.0 */
+    background: -o-radial-gradient(hsla(353,100%,30%,1) 15%, hsla(353,0%,0%,1) 85%); /* For Opera 11.6-12.0 */
+    background: -moz-radial-gradient(hsla(353,100%,30%,1) 15%, hsla(353,0%,0%,1) 85%); /* For Firefox 3.6-15 */
+    background: radial-gradient(hsla(353,100%,30%,1) 15%, hsla(353,0%,0%,1) 85%); /* Standard syntax */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div {
+    transition: all 0.3s ease;
+}
+.outside {
+    background-color:transparent;
+    width: 100%;
+    height: 100%;
+}
+.inside {
+    width: 100%;
+    margin: 40px auto 0px;
+    max-width: 1100px;
+    padding: 0px;
+    /*background-color: hsla(224,0%,100%,1);*/
+    background-color: transparent;
+    height: 100%;
+    /*display: none;*/
+}
+#myCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    margin: 60px auto;
+    text-align:center;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    z-index: 5000;
+    border-radius: 20pt;
+    border:5pt solid hsla(227,100%,50%,0.5);
+}
+.outside .navbar {
+        box-shadow: 3px 3px 3px hsla(227,20%,10%,1);
+    }
+.navbar-header .navbar-brand img {
+    height: 44px;
+    margin-top: -10px;
+}
+ .mySocial {max-width:300px;
+            width:100%;
+            margin: 0 auto;
+            float:right;
+ }
+.mySocialResults {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /*float: left;*/
+    /*border: 1px solid black;*/
+}
+
+.mySocialResults .nav>li {
+    display: inline-block;
+    font-size: 20pt;
+}
+li img {height:20px;}
+
+.siteName {
+    color: white;
+    font-size: 12pt;
+    text-shadow: 3px 3px hsla(353,0%,0%,0.9);
+    padding-top: 3pt;
+    line-height: 13pt;
+    display: inline-block;
+}
+   
+    
+
+ .bigger {
+    float:left;
+    height:150px;
+    margin-right: 10pt;
+}
+.smaller {
+    float: left;
+    height: 65px;
+    margin-right: 10pt;
+}
+.twitterShareBtn {margin-top:12px !important;}
+
+.FBPostBtn {
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 5pt;
+    padding-top: 0px;
+    cursor: pointer;
+}
+#pgAdvance {
+    width: 96%;
+    background-color: hsla(227,80%,20%,1);
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 10pt;
+    float:right;
+    transition: all 0.3s ease;
+}
+    #pgAdvance:hover {
+        box-shadow: 3px 3px 3px hsla(227,20%,10%,1);
+        background-color: hsla(113,80%,20%,1);
+    }
+    
+    #content {
+        height: 80%;
+        width: 100%;
+    }
+.padding-left { padding-left: 15pt;}
+
+
+#tweetQuest {display:inline;}
+
+
+#SurveyResults, #addlContent {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    vertical-align: top;
+    border-bottom: 1px solid hsla(227,80%,20%,1);
+    border-left: 10px solid hsla(227,80%,20%,1);
+    border-radius: 5px 0 0 5px;
+}
+#SurveyResults table {
+    width: 80%;
+    margin-left: 5%;
+}
+    #SurveyResults > div:nth-child(1), #addlContent div {
+        background-color: hsla(227,80%,20%,1);
+        color: white;
+        padding-left: 5pt;
+        padding-bottom: 5pt;
+        border-top: 1px solid black;
+        
+        
+    }
+#SurveyResults table tr td:nth-child(2) {
+    text-align: right;
+}
+    #SurveyResults .viewAll {
+        text-align: center;
+        background-color: hsla(353,80%,30%,1);
+        color: white;
+        font-size: 12pt;
+        cursor:pointer;
+        transition: all 0.3s ease;
+    }
+        #SurveyResults .viewAll:hover {
+            font-size: 16pt;
+        }
+        .welcome {
+    margin: 0 auto;
+    width: 94%
+}
+#someVideo {
+    width: 100%; 
+    max-width: 400px;
+    margin:0 auto;
+}
+.welcomeP {
+    font-size: 20pt !important;
+    line-height: 22pt !important;
+    margin: 6pt !important;
+}
+#SurveyIntro {
+    padding-bottom: 5pt;
+    margin-bottom: 5pt;
+    margin-left:  20pt;
+    /*border-bottom: 5px solid hsla(353,90%, 50%,1);*/
+
+}
+
+.grad {
+    height: 5pt;
+    width:96%;
+    background: hsla(353,80%,20%,1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, hsla(353,80%,50%,1), hsla(113,80%,20%,0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, hsla(353,80%,50%,1), sla(113,80%,20%,0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, hsla(353,80%,50%,1), hsla(113,80%,20%,0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, hsla(353,80%,50%,1), hsla(113,80%,20%,0.8)); /* Standard syntax */
+    margin-bottom: 5pt;
+    color:white;
+    padding-left:5pt;
+    border-radius:5pt;
+    cursor: pointer;
+    font-size: 10pt;
+    transition: all 0.3s ease;
+    float:right;
+}
+    .grad:hover {
+        font-size: 12pt;
+        font-weight:bold;
+    }
+#SurveyIntro p {
+    font-size: 11pt;
+    line-height: 13pt;
+    margin-bottom: 8pt;
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer {
+    width:100%;
+    background-color: #222;
+    height: 300px;
+    padding: 0pt;
+    text-align:center;
+}
+
+#content  .QText {
+        font-weight: bold;
+        font-size: 15pt;
+        color: hsla(233,80%,20%,1);
+        height: 17pt;
+        line-height: 16pt;
+        /*border: 1px solid black;*/
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+/*#content .QText td:nth-child(1) {
+    width: 25pt;
+}*/
+/*#content .QText td {
+    vertical-align: top;
+    padding-right: 2pt;
+}*/
+#content .btnDivDisabled {
+    text-align: center;
+    cursor: pointer;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: hsla(113,0%,90%,1);
+    color: hsla(227,0%,60%,1);
+    
+}
+#content .btnDiv {
+    text-align: center;
+    cursor: pointer;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: hsla(113,80%,20%,1);
+    color: white;
+    transition: all 0.3s ease;
+}
+    #content .btnDiv:hover {
+        background-color: hsla(353,80%,20%,1);
+        box-shadow: 3px 3px 3px hsla(353,20%,10%,1);
+    }
+#content .allChoices {
+    /*height: 400px;*/
+  
+    /*width:100%;*/
+    margin: 0 auto;
+    padding: 10pt 0pt 20pt 0pt;
+    text-align: center;
+    display: none;
+    height:500px;
+    width:90%;
+    overflow-y:scroll;
+}
+.PrizeContainer {
+    margin-bottom: 10pt;
+    border: 1px inset black;
+    border-radius: 5pt;
+    padding: 10pt 0pt;
+    background-color: hsla(353,0%,95%,1);
+    background: -webkit-linear-gradient(left, hsla(353,0%,95%,1), hsla(227,0%,100%,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, hsla(353,0%,95%,1), hsla(227,0%,100%,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, hsla(353,0%,95%,1), hsla(227,0%,100%,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, hsla(353,0%,95%,1), hsla(227,0%,100%,1)); /* Standard syntax */
+}
+#content .myChoices {
+    text-align: center;
+    cursor: pointer;
+    font-size: 15pt;
+    font-weight: bold;
+    background: hsla(353,90%,40%,1);
+    border-radius: 5pt;
+    border: 1px outset hsla(353,50%,10%,1);
+    color: hsla(353,50%,90%,1);
+    width: 19%;
+    /*margin: 0 auto 5pt;*/
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 1pt;
+    box-shadow:1pt 1pt 2pt #000 ;
+}
+#content .myChoicesMatch {
+    text-align: center;
+    cursor: pointer;
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: hsl(107, 94%, 34%);
+    color: hsla(107,50%,20%,1);
+    width: 19%;
+    /*margin: 0 auto 5pt;*/
+    margin: 1pt;
+    border-radius: 5pt;
+    border: 1px inset hsl(107, 50%, 10%);
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#content .myChoices:hover, #content .myChoicesMatch:hover {
+    background-color: hsla(353,0%,20%,1);
+    color: hsla(227,50%,90%,1);
+    box-shadow: 3px 3px 3px hsla(353,20%,10%,1);
+}
+
+#content .myChoiceSelected {
+    text-align: center;
+    cursor: pointer;
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: hsla(353,80%,40%,1);
+    color: hsla(353,50%,100%,1);
+    width: 70%;
+    margin: 0 auto 5pt;
+}
+#googleSpace {
+    margin:20pt auto 10pt;
+}
+#googleAd2 {
+    margin: 10pt auto 30pt;
+    padding:10pt 0pt;
+    height: 70px;
+}
+#author {
+    color: hsla(227,30%,90%,1);
+    margin: 10pt auto 30pt;
+}
+#footerBtns > div {
+    color: hsla(353,0%,90%,1);
+    width:100%;
+    max-width: 700px;
+    margin: 10pt auto;
+
+}
+    #footerBtns > div a {
+        vertical-align: top;
+    }
+
+    #footerBtns > div img {
+        height: 20px;
+        vertical-align:top;
+        cursor: pointer;
+    }
+    
+    li > span {
+        cursor: pointer;
+    }
+
+#resultsAll {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ #resultsAll > div:nth-child(1) {
+font-weight: bold; 
+font-size: 22pt;
+ }
+.video {
+    /*height: 100px;
+     margin: 0 auto;*/
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+   
+
+}
+    #resultsAll div:nth-child(1) {
+       
+        
+        font-style: italic;
+    }
+    #resultsAll tr:nth-child(1) {
+        background-color: hsla(227,80%,30%,1);
+    }
+    #resultsAll th {
+        font-size: 22pt;
+        color: white;
+    }
+
+#resultsAll td {
+    vertical-align: top;
+    padding-top: 8pt;
+
+}
+    #resultsAll tr td:nth-child(1) {
+        text-align: right;
+        padding-left: 8pt;
+    }
+    /*#resultsAll tr td:nth-child(4) {
+        text-align: right;
+        padding-right: 8pt;
+    }*/
+
+    #resultsAll tr td:nth-child(3) {
+        /*text-align: right;*/
+        padding-right: 8pt;
+        /*white-space: nowrap;*/
+        line-height:110%;
+        padding-bottom: 10pt;
+    }
+.reportDetailBar {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    border-radius: 8px 0 0 8px;
+    background-color: hsla(227,80%,80%,0.3);
+    border: 1px solid hsla(227,80%,40%,0.7);
+    border-right: 0px solid transparent;
+}
+  /*#resultsAll tr td:nth-child(4) > div > span:nth-child(2) {
+                font-size: 12pt;
+                text-shadow:0px 0px 5px white;
+
+            }*/
+#resultsAll  span {
+                /*font-size: 12pt !important;*/
+            }
+  /*#resultsAll tr td:nth-child(4) div span:nth-child(2) {
+                font-size: 12pt !important;
+            }*/
+    #resultsAll .firstRow {
+
+    }
+    #resultsAll .firstRowE {
+        background-color: hsla(353,0%,90%,1);
+    }
+    #resultsAll .firstRow > td {
+        border-top: 1px solid hsla(353,0%,90%,1);
+    }
+#SurveyResults div:nth-child(2) {
+    text-align: center;
+    background-color: hsla(353,80%,30%,1);
+    color: white;
+    font-size: 20pt;
+}
+    /*    MEDIA QUERY      */
+    /*    MEDIA QUERY      */
+    /*    MEDIA QUERY      */
+    /*    MEDIA QUERY      */
+    @media screen and (max-width:991px) {
+    #addlContent a {
+        font-size: 26pt;
+    }
+
+    #addlContent li {
+        line-height: 36pt;
+    }
+
+    .mySocial li {
+        /*float: right;*/
+        margin-bottom: 5pt !important;
+    }
+
+    #SurveyResults div, #addlContent div, #pgAdvance  {
+        font-size: 28pt;
+    }
+    #SurveyResults .viewAll {
+            text-align:center;
+            background-color: hsla(353,80%,30%,1);
+            color: white;
+            font-size: 20pt;
+        }
+        
+        #content .btnDivDisabled, #content .btnDiv {
+            font-size: 30pt;
+        }
+
+        #content .myChoices, #content .myChoiceSelected, #content .myChoicesMatch {
+            font-size: 30pt;
+            margin: 0 auto 20pt;
+        } 
+    #content .QTextContainer .QText {
+        height: 100pt;
+    }
+        td {
+            font-size: 28pt ;
+            line-height: 29pt;
+        }
+ /*#resultsAll tr td:nth-child(4) > div > span:nth-child(2) {
+            font-size: 22pt;
+            text-shadow: 0px 0px 5px white;
+        }*/
+  .outside .inside .row .row .col-md-9  #SurveyIntro {/*display: none !important;*/}
+
+    p {font-size: 28pt !important;
+       line-height:32pt !important;
+    }
+} 
